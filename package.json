@@ -18,5 +18,8 @@
     "@types/node": "latest",
     "ts-node": "^10.9.2",
     "typescript": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
