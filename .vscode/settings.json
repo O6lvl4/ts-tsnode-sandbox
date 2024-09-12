@@ -1,0 +1,31 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.ignoreLimitWarning": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
