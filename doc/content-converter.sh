@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input="content02.mov"
-output="content02_3mb.gif"
+input="content03.mov"
+output="content03_3mb.gif"
 target_size=$((3 * 1024 * 1024))  # 3MB in bytes
 duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$input")
 
